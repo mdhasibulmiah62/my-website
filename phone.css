@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Cousine:wght@700&family=Inria+Serif:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,900&family=Nanum+Gothic:wght@700&family=Palanquin+Dark:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;900&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700;1,900&family=Shrikhand&family=Yusei+Magic&display=swap');
+ /* My React Starts */
+
+
+.reacct-information{
+    background: #303846;
+    text-align: center;
+}
+.react-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: white;
+    margin: 6px;
+  
+}
+.react-p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+.btn{
+    border: 1px solid #09D3AC;
+    background: transparent;
+    width: 170px;
+    margin: 20px 0;
+    
+}
+.btn:hover{
+    background: #09D3AC;
+   
+}
+.btnn{
+    color: #09D3AC;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+}
+.btnn:hover{
+    color: white;
+}
+ /* My React Starts */
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+ 
+}
+.navbar{
+    background-color: rgb(18, 171, 209);
+    padding: 20px;
+}
+img{
+    width: 300px;
+  margin: 0 auto;
+    display: block;
+}
+.logo{
+    display: block;
+    width: 100%;
+}
+.name h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+    color: rgb(12, 14, 10);
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: -100px;
+}
+.my-info a{
+    text-decoration: none;
+    display:block;
+    text-align: center;
+    background-color: gray;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: high tower text;
+    color: aquamarine;
+
+} 
+.my-info a:hover{
+    font-family: monospace;
+    color: white;
+    background-color: rgb(66, 63, 63);
+}
+.my-info{
+    background-color: rgb(51, 44, 44);
+    padding: 10px;
+    border-radius: 10px;
+}
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+[class*="col-"]{
+width: 100%;
+}
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* my disign */
+
+.name h1{
+    text-align: right;
+    transition: 2s;
+}
+.name h1:hover{
+-webkit-text-stroke: 4px #b14747;
+color: transparent;
+
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    /* background: linear-gradient(45deg,#08001f,#30197d); */
+    /* background-image: url("pexels-pixabay-235922.jpg"); */
+    color: #fff;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+video.video {
+    width: 100%;
+    
+}
+
+.vedio{
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 500px;
+    z-index: -1;
+}
+video.video {
+    width: 100%;
+}
+
+.container{
+    width: 800px;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+
+    .clock{
+    width: 100%;
+    height: 100%;
+    background: rgba(235, 0, 255, 0.11);   
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(40px);
+    }
+.container::before{
+    content: '';
+    width: 180px;
+    height: 180px;
+    background: #f41b75;
+    border-radius: 10px;
+    position: absolute;
+    left: -50px;
+    top: -50px;
+    z-index: -1;
+}
+marquee {
+    background: beige;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: math;
+    /* margin-left: 20px; */
+}
+#span {
+    background: red;
+    padding: 5px;
+    font-family: cursive;
+    border-radius: 3px;
+}
+.container::after{
+    content: '';
+    width: 180px;
+    height: 180px;
+    background: #419aff;
+    border-radius: 50%;
+    position: absolute;
+    right: -30px;
+    bottom: -50px;
+    z-index: -1;
+}
+
+.clock span{
+    font-size: 80px;
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.clock span::after{
+
+    font-size: 17px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#hrs::after{
+content: 'HOURSE';
+color: rgb(12, 244, 174);
+margin-bottom: -21px;
+}
+
+
+#min::after{
+    content: 'MINUTES';
+    color: #f41b75;
+    margin-bottom: -21px;
+    }
+
+    
+        #sec::after{
+            content: 'SECOND';
+            color: rgb(125, 240, 9);
+            margin-bottom: -21px;
+            }
+
+        h1 {
+            position: absolute;
+            left: 39%;
+            top: 10%;
+            font-size: 54px;
+            text-align: center;
+            color: transparent;
+            background-image: url(giphy-downsized-large.gif);
+    background-position: center;
+    -webkit-background-clip: text;
+    
+        }
+/* my disign */
+
+#about-me-id{
+    font-family: high tower text;
+}
+h2{
+    font-size: 40px;
+    color: rgb(13, 228, 49);
+    text-align: center;
+    margin: 10px;
+}
+.dotted-hr{
+border: 5px dotted rgb(44, 2, 228);
+border-bottom: none;
+width: 70px;
+margin: 20px auto;
+}
+.about-me{
+    background-color: #303846;
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+}
+.about-me::after{
+    display: table;
+    content: '';
+     clear: both; 
+
+}
+
+.aboutme-image img{
+    width: 220px;
+    border: 6px solid rgb(250, 243, 243);
+    height: 220px;
+    
+    border-radius: 50%;
+}
+.aboutme-desc p{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Montserrat';
+    color: white;
+}
+.phone{
+    font-family: math;
+    color: rgb(30, 51, 30);
+    font-weight: bold;
+}
+.aboutme-hr{
+    border-bottom: 2px solid;
+    background: linear-gradient(45deg,red,green);
+}
+p a{
+    color: rgb(149, 10, 204);
+    font-size: 20px;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+p a:hover{
+    text-decoration: underline;
+}
+button{
+    padding: 10px;
+    font-family: high tower text;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(28, 39, 39);
+    border-radius: 5px;
+        margin: 10px;
+}
+
+
+
+/* My Exparience */
+.icons img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.work-exparience {
+    background: #fb5200;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 4px -6px 6px;
+    margin: 10px;
+}
+
+.professional-exparience {
+    padding: 5px;
+    /* border-radius: 32px; */
+}
+
+h3 {
+    text-align: center;
+    margin: 17px;
+    font-size: 20px;
+    background: linear-gradient(45deg, #a08b8b, #db0a0a);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 2px 3px 4px black;
+}
+
+.information {
+    font-weight: bold;
+    color: white;
+    margin: 20px;
+    padding: -4px;
+  
+}
+ p{
+    font-family: monospace;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.department {
+    font-weight: bold;
+    color: white;
+    margin: 20px;
+    padding: -4px;
+}
+
+.expart {
+    font-weight: bold;
+    color: white;
+    margin: 20px;
+    padding: -4px;
+}
+
+.skill {
+    font-weight: bold;
+    color: white;
+    margin: 20px;
+    padding: -4px;
+}
+h6{
+    font-size: 20px;
+    color: #053264;
+    font-family: high tower text;
+    margin: 10px 0;
+}
+span.span1 {
+    /* text-align: center; */
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    /* border: 2px solid; */
+    background: black;
+    color: #10eeea;
+    font-weight: bold;
+}
+
+span.span1:hover {
+    background: #7c6c6c;
+    color: #06ec06;
+    font-weight: bold;
+}
+
+
+/* My Exparience */
+
+.information1{
+    background: #303846;
+}
+.sports{
+    width: 100px;
+    background: transparent;
+}
+.information1{
+    background: #303846;
+}
+.sports{
+    width: 100px;
+    background: transparent;
+    height: 100px;
+    border-radius: 50%;
+}
+.information1{
+    background: #303846;
+}
+.sports{
+    width: 100px;
+    background: transparent;
+    height: 100px;
+    border-radius: 50%;
+}
+h2.cricket {
+    margin: 22px 0;
+    font-family: math;
+    background: linear-gradient(45deg, black, transparent);
+    color: cornflowerblue;
+}
+.criex {
+    text-align: center;
+    padding: 10px;
+}
+
+a.cricket1 {
+    background: #b8a0a0;
+}
+
+p.cricket {
+    background: grey+;
+    margin: 10px;
+    border-radius: 10px;
+    /* padding: 2px; */
+}
+
+p.cricket:hover {
+    background: gray;
+    /* color: white; */
+    border-radius: 10px;
+}
+
+a.cricket3 {
+    background: gainsboro;
+}
+.information2{
+    /* background-color: #272829; */
+background-image: url("pexels-hristo-sahatchiev-832694.jpg");
+    padding: 5px;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+}
+
+.div11 {
+    float: left;
+    width: 50%;
+    margin: 10px;
+}
+
+.rangpur-desc {
+    float: left;
+    margin: 10px;
+    width: 50%;
+    content: white;
+    color: white;
+    /* font-family: monospace; */
+}
+.dv{
+    clear: both;
+    display: table;
+}
+.rangpur11 {
+    box-sizing: border-box;
+    display: flex;
+    margin: 10px;
+}
+video {
+    margin-bottom: 2px;
+    box-shadow: 6px 5px 7px red;
+    border-radius: 10px;
+}
